@@ -23,7 +23,10 @@ body {
 
 /* Links */
 .serPHYS{
-    color: #ff3a3a;
+    padding: 5px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #ff0000;
     font-size: 1.2rem;
     font-weight: bolder;
 }
