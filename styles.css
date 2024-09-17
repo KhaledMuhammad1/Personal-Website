@@ -22,7 +22,11 @@ body {
 
 
 /* Links */
-.serPHYS,
+.serPHYS{
+    color: #ff3a3a;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
 .linkedin {
     color: #0d72b6;
     font-size: 1.2rem;
