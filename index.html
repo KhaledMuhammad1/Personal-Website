@@ -1,249 +1,371 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khaled Muhammad Website - Physicist</title>
+    <title>Khaled Muhammad | Physicist</title>
+    <meta name="description" content="Khaled Muhammad – Physics student, theoretical physics researcher and science communicator. Research, projects, certificates and contact information.">
+    <meta name="theme-color" content="#0b1220">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <a href="#" class="logo">Khaled Muhammad</a>
-                <ul class="nav-links">
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#research">Research Interests</a></li>
-                    <li><a href="#publications">Projects</a></li>
-                    <li><a href="#certificates">Certificates</a></li>
-                    <li><a href="#contact">Contact Info</a></li>
-                </ul>
-            </div>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#top" class="logo">Khaled<span>.</span>Muhammad</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Hello, I'm <span>Khaled Muhammad</span></h1>
-            <p>Physicist | Researcher | Science Enthusiast</p>
-            <br>
-            <a href="#contact" class="hero-button">Get in Touch</a>
-        </div>
-    </section>
-
-    <section id="about" class="section">
-        <div class="container" >
-            <h2>About Me</h2>
-            <div class="left_alignment">
-                <li style="margin-bottom: 10px;">I am a fresh graduate student at the Physics department, Faculty of Science with a solid foundation in <b><u>Theoretical Physics and mathematics</u></b>, known for my hard work and strong commitment, the <b><u>top rank</u></b> among my group of Physics department, Grade: <b><u>Excellant with honors</u></b>, GPA: <b><u>4.26</u></b> on the 5 scale,interested in scientific research, seeking to gain experience and deepen my knowledge while simplifying physics concepts and helping students. I frequently strive to develop my skills.</li>
-        <li style="margin-bottom: 10px;">Worked on my first-semester graduation thesis on a research paper titled “Exploring the nuclear structure of even-even 128-146Ce isotopes considering the calculations of IBM-1” (under revision for publication).</li>
-        <li style="margin-bottom: 10px;">Wrote a strong article for the second-semester graduation thesis under the title of “Special Relativity and the Laws of Physics” - Chick it on <a href="https://www.researchgate.net/publication/406996699_Special_Relativity_and_the_laws_of_Physics" target="_blank" class="serPHYS">ResearchGate</a>.</li>
-<li style="margin-bottom: 10px;">Owner of a YouTube channel called <a target="_blank" class="serPHYS"
-                    href="https://www.youtube.com/@serPHYS1">serPHYS</a> created to explain physics lectures in topics such as: QM, SR, Electrodynamics, and more.</li>                
-                <li style="margin-bottom: 10px;">Leader of “Physics Team”:</li>
-                <p style="margin-top: -10px;"><i>a non-profit telegram channel dedicated to summarizing lectures at faculty of science, Zagazig
-                    university.</i></p>
-                 <li style="margin-bottom: 10px;">Compiled, organized, and edited the Statistical Mechanics course notes, currently used by the course instructor at Zagazig University.</li> 
-<li style="margin-bottom: 10px;">Completed a research training in the Theoretical Physics Department at the National Research Centre (NRC).</li>
- <li style="margin-bottom: 10px;">published a course on <a
-                    href="https://www.udemy.com/course/the-path-to-academic-excellence/?referralCode=9BD851F641B05CE8DD94"
-                    target="_blank" class="serPHYS">Udemy</a> for Academic Excellence.</li>
-                <li style="margin-bottom: 10px;">Published simple articles in a magazine of simplifying science.</li>
-              
-                
-               
+    <main id="main">
+        <!-- HERO -->
+        <section id="hero">
+            <div class="orbit-bg" aria-hidden="true">
+                <span class="orbit o1"></span>
+                <span class="orbit o2"></span>
+                <span class="orbit o3"></span>
+                <span class="nucleus"></span>
             </div>
-        </div>
-    </section>
-
-    <section id="research" class="section bg-light">
-        <div class="container">
-            <h2>Research Interests</h2>
-            <p>Keen on all research fields belonging to Theoretical Physics, such as Quantum Mechanics, Statistical Mechanics, Special Relativity, Electrodynamics, and High-Energy Physics</p>
-        </div>
-    </section>
-
-
-    <!-- Publications Slider -->
-    <section id="publications" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-
-
-            <div class="slider" id="publications-slider">
-                <!-- _______________________________________________ -->
-                
-                    <a href="https://drive.google.com/file/d/15y1eToSbHnh19C5fX5R76nawnJyeJznG/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">SR and the laws of Physics</div></a>
-                
-                <!-- _______________________________________________ -->
-                
-                    <a href="https://drive.google.com/file/d/11a_j5zdpPJZR5IrkWB648pyf76wvAC4I/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Statistical Mechanics Notes</div></a>
-                
-                <!-- _______________________________________________ -->
-                
-                    <a href="https://drive.google.com/drive/folders/1cvjluTtkt2iRyCXq0Gda8EoXX3lc36rH?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">My contributions to <br><i>3loom Team</div></i></a>
-                
-                <!-- _______________________________________________ -->
-                
-                    <a href="https://drive.google.com/file/d/1-6lLOxjOtsAB25sFJlQHC3jP0-mMY4p-/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Maxwell equations article</div></a>
-                <!-- _______________________________________________ -->
-                
-                    <a href="https://drive.google.com/file/d/14nKDHrMZGd6HMxc65b7-y3ze8f6swDm2/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">History of light article</div></a>
-                <!-- _______________________________________________ -->
-                
-                    <a href="https://drive.google.com/file/d/1AlV4APb0Mq6ZdHrrty4PaomoLXcxWBHR/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Entropy article</div></a>
-                
-
-                <!-- Add more slides as needed -->
-
-            </div>
-            <div class="slider-nav">
-                <button onclick="prevSlide('publications-slider')">Previous</button>
-                <button onclick="nextSlide('publications-slider')">Next</button>
-            </div>
-    </section>
-
-    <!-- Certificates Slider -->
-    <section id="certificates" class="section bg-light" style="background-color: white;">
-        <div class="container">
-            <h2>Certificates</h2>
-
-            <div class="slider" id="certificates-slider">
-     <a href="https://drive.google.com/file/d/1sNlPksR40mdln9Z4-FTOaTHudjDgGJPN/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Writing in the science</div></a>
-                <!-- _______________________________________________ -->
-
-                                  <a href="https://drive.google.com/file/d/1QgKkgs_G3i8LEJOIUH-dbVO-Uh8Jl6FF/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Learn how to learn</div></a>
-                <!-- _______________________________________________ -->
-                              <a href="https://drive.google.com/file/d/1sAk5Qhtr7jJF1bvMl-Apvzy58qo1t-ty/view?usp=sharing"
-                        target="_blank" class="pdf"><div class="slide">academic branding workshop</div></a>
-                <!-- _______________________________________________ -->
-                    <a href="https://drive.google.com/file/d/15FPRp1AnvJd3wlsr8aCogCOHP1ccGqFm/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">NRC training</div></a>
-                <!-- _______________________________________________ -->
-                               <a href="https://drive.google.com/file/d/1Y7TeZy0cyOiwebSz9u9B-n80VMQZWGfE/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Graduation projects workshop</div></a>
-                <!-- _______________________________________________ -->              
-      
-                              
-                    <a href="https://drive.google.com/file/d/1fut16GRbcI3jh9AuA0oFZpvft8sBV_d3/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">MATLAB</div></a>
-                <!-- _______________________________________________ -->
-                                
-                    <a href="https://drive.google.com/file/d/1nqjuymQoFrLYSvKHdcxjRdWa2HQf0fAS/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Electrodynamics</div></a>
-                <!-- _______________________________________________ -->
-                
-                    <a href="https://drive.google.com/file/d/1VqK3-4NM7F46vPWj7CBFdjgFbxaTe4eB/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">ICDL</div></a>
-               <!-- _______________________________________________ -->
-                
-       
-                    <a href="https://drive.google.com/file/d/1jMSUReM7WKPKhROCSfoziRQGGoZMHAq2/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Nanoscience and Advanced Quantum Mechanics seminar</div></a>
-                <!-- _______________________________________________ -->
-                 
-                    <a href="https://drive.google.com/file/d/1hdhbYHDeUNBFVjULVq1z6GmcLoA9F1so/view?usp=drive_link"
-                        target= "_blank" class="pdf"><div class="slide">Quantum Computing for Everyone</div></a>
-                <!-- _______________________________________________ -->
-                   <a class="pdf"
-                        href="https://drive.google.com/file/d/1kFtkz1FPtNOW3SVrSuuLLriUKAvAbpXO/view?usp=drive_link"
-                        target="_blank">
-                        <div class="slide">The 2<sup>nd</sup> International Conference on Pure and Applied Physics
-                    </div></a>
-                <!-- _______________________________________________ -->
-                        <div class="slide">
-                    <a href="https://drive.google.com/file/d/1BJD08kAhRZshfUA_MgWG5GzA-SCImmgO/view?usp=drive_link"
-                        target="_blank" class="pdf">First aids</a>
+            <div class="container hero-inner">
+                <p class="eyebrow">Physics · Faculty of Science, Zagazig University</p>
+                <h1>Hello, I'm <span class="gradient-text">Khaled Muhammad</span></h1>
+                <p class="hero-sub">Physicist &nbsp;|&nbsp; Researcher &nbsp;|&nbsp; Science Enthusiast</p>
+                <p class="hero-text">Theoretical physics student passionate about research and about making physics simple and accessible for everyone.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#projects" class="btn btn-ghost">View Projects</a>
                 </div>
-                    <a href="https://drive.google.com/file/d/1p3Y_ajYHUjsJlbSrgVwHUbOVCiGfhI5A/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Basics of HTML & CSS</div></a>
-                <!-- _______________________________________________ -->
-                
-                
-                    <a href="https://drive.google.com/file/d/1qIUG_c683OeG1kTabticbuX5XexQN4r9/view?usp=drive_link"
-                        target="_blank" class="pdf"><div class="slide">Zewail city science <br>festival invitation</div></a>
-                
-                <!-- Add more slides as needed -->
             </div>
+        </section>
 
-            <div class="slider-nav">
-                <button onclick="prevSlide('certificates-slider')">Previous</button>
-                <button onclick="nextSlide('certificates-slider')">Next</button>
+        <!-- STATS -->
+        <section class="stats container" aria-label="Highlights">
+            <div class="stat">
+                <strong>4.26<small>/5</small></strong>
+                <span>GPA – Excellent with Honors</span>
             </div>
-        </div>
-    </section>
+            <div class="stat">
+                <strong>#1</strong>
+                <span>Top rank in my Physics group</span>
+            </div>
+            <div class="stat">
+                <strong>2</strong>
+                <span>Graduation theses</span>
+            </div>
+            <div class="stat">
+                <strong>6+</strong>
+                <span>Articles, notes &amp; projects</span>
+            </div>
+        </section>
 
-    <section id="contact" class="section bg-light" style="background-color: white;">
-        <div class="containerGray">
-            <h2>Contact Info</h2>
-            <p style="font-weight: bold;">Call Me: +20 111 225 4688
-            </p>
-            <p style="font-weight: bold;">Email: KhaledMuhammad100@gmail.com
-            </p>
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Who I am</p>
+                    <h2>About Me</h2>
+                </header>
 
-        
-        </div>
-    </section>
+                <p class="lead">
+                    I am a student at the Physics Department, Faculty of Science, with a solid foundation in
+                    <strong>Theoretical Physics and Mathematics</strong>, known for my hard work and strong
+                    commitment. I hold the <strong>top rank</strong> among my group in the Physics department,
+                    with the grade <strong>Excellent with Honors</strong> and a GPA of <strong>4.26 on the 5 scale</strong>.
+                    I am interested in scientific research, and I seek to gain experience and deepen my knowledge
+                    while simplifying physics concepts and helping students. I constantly strive to develop my skills.
+                </p>
 
-    <footer>
+                <div class="cards about-grid">
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">📄</div>
+                        <h3>Research Paper</h3>
+                        <p>First-semester graduation thesis: <em>“Exploring the nuclear structure of even-even
+                            <sup>128-146</sup>Ce isotopes considering the calculations of IBM-1”</em>
+                            <span class="tag">Under revision for publication</span></p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">✍️</div>
+                        <h3>Graduation Article</h3>
+                        <p>Second-semester graduation thesis: <em>“Special Relativity and the Laws of Physics”</em>.
+                            Check it out on
+                            <a href="https://www.researchgate.net/publication/406996699_Special_Relativity_and_the_laws_of_Physics" target="_blank" rel="noopener" class="text-link">ResearchGate&nbsp;↗</a>.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">🎥</div>
+                        <h3>YouTube Channel</h3>
+                        <p>Owner of
+                            <a target="_blank" rel="noopener" class="text-link" href="https://www.youtube.com/@serPHYS1">serPHYS&nbsp;↗</a>,
+                            created to explain physics lectures in topics such as QM, SR, Electrodynamics, and more.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">👥</div>
+                        <h3>Leader of “Physics Team”</h3>
+                        <p>A non-profit Telegram channel dedicated to summarizing lectures at the Faculty of Science,
+                            Zagazig University.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">📚</div>
+                        <h3>Statistical Mechanics Notes</h3>
+                        <p>Compiled, organized, and edited the Statistical Mechanics course notes, currently used by
+                            the course instructor at Zagazig University.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">🔬</div>
+                        <h3>Research Training</h3>
+                        <p>Completed a research training in the Theoretical Physics Department at the
+                            National Research Centre (NRC).</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">🎓</div>
+                        <h3>Online Course</h3>
+                        <p>Published a course on
+                            <a href="https://www.udemy.com/course/the-path-to-academic-excellence/?referralCode=9BD851F641B05CE8DD94" target="_blank" rel="noopener" class="text-link">Udemy&nbsp;↗</a>
+                            about Academic Excellence.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon" aria-hidden="true">📰</div>
+                        <h3>Science Magazine</h3>
+                        <p>Published simple articles in a magazine dedicated to simplifying science.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESEARCH -->
+        <section id="research" class="section section-alt">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">What drives me</p>
+                    <h2>Research Interests</h2>
+                </header>
+                <p class="lead center">Keen on all research fields belonging to Theoretical Physics, such as:</p>
+                <ul class="chips">
+                    <li>Quantum Mechanics</li>
+                    <li>Statistical Mechanics</li>
+                    <li>Special Relativity</li>
+                    <li>Electrodynamics</li>
+                    <li>High-Energy Physics</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Selected work</p>
+                    <h2>Projects</h2>
+                </header>
+
+                <div class="grid">
+                    <a class="tile" target="_blank" rel="noopener" href="https://drive.google.com/file/d/15y1eToSbHnh19C5fX5R76nawnJyeJznG/view?usp=drive_link">
+                        <span class="tile-kind">Article · PDF</span>
+                        <span class="tile-title">SR and the Laws of Physics</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile" target="_blank" rel="noopener" href="https://drive.google.com/file/d/11a_j5zdpPJZR5IrkWB648pyf76wvAC4I/view?usp=drive_link">
+                        <span class="tile-kind">Notes · PDF</span>
+                        <span class="tile-title">Statistical Mechanics Notes</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile" target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/1cvjluTtkt2iRyCXq0Gda8EoXX3lc36rH?usp=drive_link">
+                        <span class="tile-kind">Folder</span>
+                        <span class="tile-title">My contributions to <em>3loom Team</em></span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1-6lLOxjOtsAB25sFJlQHC3jP0-mMY4p-/view?usp=drive_link">
+                        <span class="tile-kind">Article · PDF</span>
+                        <span class="tile-title">Maxwell Equations Article</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile" target="_blank" rel="noopener" href="https://drive.google.com/file/d/14nKDHrMZGd6HMxc65b7-y3ze8f6swDm2/view?usp=drive_link">
+                        <span class="tile-kind">Article · PDF</span>
+                        <span class="tile-title">History of Light Article</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1AlV4APb0Mq6ZdHrrty4PaomoLXcxWBHR/view?usp=drive_link">
+                        <span class="tile-kind">Article · PDF</span>
+                        <span class="tile-title">Entropy Article</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATES -->
+        <section id="certificates" class="section section-alt">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Learning &amp; achievements</p>
+                    <h2>Certificates</h2>
+                </header>
+
+                <div class="grid grid-small">
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1sNlPksR40mdln9Z4-FTOaTHudjDgGJPN/view?usp=drive_link">
+                        <span class="tile-title">Writing in the Science</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1QgKkgs_G3i8LEJOIUH-dbVO-Uh8Jl6FF/view?usp=drive_link">
+                        <span class="tile-title">Learn How to Learn</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1sAk5Qhtr7jJF1bvMl-Apvzy58qo1t-ty/view?usp=sharing">
+                        <span class="tile-title">Academic Branding Workshop</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/15FPRp1AnvJd3wlsr8aCogCOHP1ccGqFm/view?usp=drive_link">
+                        <span class="tile-title">NRC Training</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1Y7TeZy0cyOiwebSz9u9B-n80VMQZWGfE/view?usp=drive_link">
+                        <span class="tile-title">Graduation Projects Workshop</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1fut16GRbcI3jh9AuA0oFZpvft8sBV_d3/view?usp=drive_link">
+                        <span class="tile-title">MATLAB</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1nqjuymQoFrLYSvKHdcxjRdWa2HQf0fAS/view?usp=drive_link">
+                        <span class="tile-title">Electrodynamics</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1VqK3-4NM7F46vPWj7CBFdjgFbxaTe4eB/view?usp=drive_link">
+                        <span class="tile-title">ICDL</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1jMSUReM7WKPKhROCSfoziRQGGoZMHAq2/view?usp=drive_link">
+                        <span class="tile-title">Nanoscience and Advanced Quantum Mechanics Seminar</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1hdhbYHDeUNBFVjULVq1z6GmcLoA9F1so/view?usp=drive_link">
+                        <span class="tile-title">Quantum Computing for Everyone</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1kFtkz1FPtNOW3SVrSuuLLriUKAvAbpXO/view?usp=drive_link">
+                        <span class="tile-title">The 2<sup>nd</sup> International Conference on Pure and Applied Physics</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1BJD08kAhRZshfUA_MgWG5GzA-SCImmgO/view?usp=drive_link">
+                        <span class="tile-title">First Aid</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1p3Y_ajYHUjsJlbSrgVwHUbOVCiGfhI5A/view?usp=drive_link">
+                        <span class="tile-title">Basics of HTML &amp; CSS</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a class="tile tile-cert" target="_blank" rel="noopener" href="https://drive.google.com/file/d/1qIUG_c683OeG1kTabticbuX5XexQN4r9/view?usp=drive_link">
+                        <span class="tile-title">Zewail City Science Festival Invitation</span>
+                        <span class="tile-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="container">
+                <header class="section-head">
+                    <p class="eyebrow">Let's talk</p>
+                    <h2>Contact Info</h2>
+                </header>
+
+                <div class="contact-grid">
+                    <a class="contact-card" href="tel:+201112254688">
+                        <span class="contact-icon" aria-hidden="true">📞</span>
+                        <span class="contact-label">Call me</span>
+                        <span class="contact-value">+20 111 225 4688</span>
+                    </a>
+                    <a class="contact-card" href="mailto:KhaledMuhammad100@gmail.com">
+                        <span class="contact-icon" aria-hidden="true">✉️</span>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">KhaledMuhammad100@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
         <div class="container">
-            <p style="font-weight: bold;">&copy; 2026 Khaled Muhammad. All rights reserved.</p>
+            <p>&copy; 2026 Khaled Muhammad. All rights reserved.</p>
+            <a href="#top" class="to-top">Back to top ↑</a>
         </div>
     </footer>
 
     <script>
-        // JavaScript to control independent sliders
-        function showSlide(sliderId, index) {
-            const slides = document.querySelectorAll(`#${sliderId} .slide`);
-            slides.forEach((slide, i) => {
-                slide.style.display = i === index ? 'block' : 'none';
-            });
-        }
+        // Mobile navigation toggle
+        const toggle = document.getElementById('nav-toggle');
+        const links = document.getElementById('nav-links');
 
-        function nextSlide(sliderId) {
-            const slides = document.querySelectorAll(`#${sliderId} .slide`);
-            let currentSlide = Array.from(slides).findIndex(slide => slide.style.display === 'block');
-            currentSlide = (currentSlide + 1) % slides.length;
-            showSlide(sliderId, currentSlide);
-        }
-
-        function prevSlide(sliderId) {
-            const slides = document.querySelectorAll(`#${sliderId} .slide`);
-            let currentSlide = Array.from(slides).findIndex(slide => slide.style.display === 'block');
-            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-            showSlide(sliderId, currentSlide);
-        }
-
-        // Initialize both sliders
-        document.addEventListener('DOMContentLoaded', () => {
-            showSlide('publications-slider', 0);
-            showSlide('certificates-slider', 0);
+        toggle.addEventListener('click', () => {
+            const open = links.classList.toggle('open');
+            toggle.classList.toggle('open', open);
+            toggle.setAttribute('aria-expanded', open);
         });
+
+        links.querySelectorAll('a').forEach(a =>
+            a.addEventListener('click', () => {
+                links.classList.remove('open');
+                toggle.classList.remove('open');
+                toggle.setAttribute('aria-expanded', 'false');
+            })
+        );
+
+        // Header shadow on scroll
+        const header = document.querySelector('.site-header');
+        const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 10);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        // Highlight active section link
+        const sections = document.querySelectorAll('main section[id]');
+        const navAnchors = document.querySelectorAll('.nav-links a');
+        const spy = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navAnchors.forEach(a =>
+                        a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id)
+                    );
+                }
+            });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+        sections.forEach(s => spy.observe(s));
+
+        // Reveal on scroll
+        const revealEls = document.querySelectorAll('.card, .tile, .stat, .contact-card, .chips li, .lead');
+        revealEls.forEach(el => el.classList.add('reveal'));
+        const reveal = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    obs.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        revealEls.forEach(el => reveal.observe(el));
     </script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
